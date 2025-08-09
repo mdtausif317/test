@@ -10,14 +10,14 @@ on:
       - main             # Only when pushing to the 'main' branch
   workflow_dispatch:     # Allow running manually from the GitHub Actions tab
 
-jobs:
-  ftp-deploy:            # Name of the job
-    runs-on: ubuntu-latest  # The environment where this job will run
+# jobs:
+#   ftp-deploy:            # Name of the job
+#     runs-on: ubuntu-latest  # The environment where this job will run
 
-    steps:
-      # Step 1: Get the latest code from your repository
-      - name: Checkout repository
-        uses: actions/checkout@v4
+#     steps:
+#       # Step 1: Get the latest code from your repository
+#       - name: Checkout repository
+#         uses: actions/checkout@v4
 
       # Step 2: Upload files to your hosting server via FTP
 
