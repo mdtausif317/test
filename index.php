@@ -28,8 +28,6 @@
     <a class="navbar-brand text-light text-shadow" href="//www.sourcecodester" target="_blank">SourceCodester</a>
   </div>
 </nav>
-dfsdfsdf
-djashkdhaskdjha
     <div class="container py-5 h-100">
         <div class="row">
             <div class="col-lg-12">
